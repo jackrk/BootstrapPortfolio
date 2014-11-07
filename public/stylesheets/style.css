@@ -48,3 +48,23 @@
 	color: #a9a9a9;
 	background-color: #3e3f3a !important;
 }
+
+.about-title {
+
+}
+
+.about-info {
+	height: 300px;
+	font-size: 16px;
+	padding-top: 20px;
+	width: 100%;
+}
+
+.img-work {
+	float: right;
+	height: 140px;
+}
+
+.img-amazon {
+	height: 180px !important;
+}
