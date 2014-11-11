@@ -1,10 +1,10 @@
 $(document).ready(function(){
 	$('.blur').bind('mouseenter',function(){
 		$(this).transition({opacity: 1, queue: false},200);
-		$(this).next().transition({y: '-=10',color: 'white', queue: false},150);
+		$(this).next().transition({y: '-=10',color: '#18bc9c', queue: false},150);
 		$(this).bind('mouseout',function() {
 			$(this).transition({opacity: .5, queue: false},200);
-			$(this).next().transition({y: '+=10',backgroundColor: '',color: '#98978b', queue: false},150);
+			$(this).next().transition({y: '+=10',backgroundColor: '',color: 'white', queue: false},150);
 			$(this).unbind('mouseout');
 			$(this).unbind('click');
 			return false;
