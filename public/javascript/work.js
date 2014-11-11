@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	if (!$.support.transition)
 		  $.fn.transition = $.fn.animate;
-	$('#kula').clone().removeClass('hide').addClass('show').appendTo('#sitecontainer');
-	$('#imgcont').append("<img src=\"/images/view/rsz_kula_login.jpg\" />");	
+	$('#srdes').clone().removeClass('hide').addClass('show').appendTo('#sitecontainer');
+	$('#imgcont').append("<img src=\"/images/view/rsz_new_sdes.jpg\" />");	
 	$('.rightarrow').css('opacity','0');
 	var leftIndex = 3;
 	var rightIndex = 0;
@@ -30,6 +30,9 @@ $(document).ready(function() {
 			});
 		}
 		return false;
+	});
+	$(".sitemenu-xs a").on("click", function() {
+		openpage($(this));
 	});
 	$('.left img').mouseenter(function(){
 		$(this).css('zIndex','2');
