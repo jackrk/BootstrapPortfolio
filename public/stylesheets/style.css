@@ -4,6 +4,7 @@
 
 .container-adjusted {
 	margin-top: 90px;
+	max-width: 1170px;
 }
 
 .navbar li a {
@@ -38,7 +39,9 @@
 	min-height: 50px;
 }
 
-/*.timeline { border-radius: 0 !important; }*/
+.twitter-timeline { 
+	width: 100% !important; 
+}
 
 .timeline-container {
 	text-align: center;
@@ -82,7 +85,7 @@
 	float:left;
 	display: inline-block;
 	height: 95%;
-	margin-top: 15px;
+	margin-top: 40px;
 	position: relative;
 	margin-left: 15px;
 	width: 100%;
